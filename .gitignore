@@ -1,0 +1,23 @@
+# CLion 项目文件（IDE 配置）
+.idea/         # CLion 项目配置目录（包含工程设置、缓存等）
+cmake-build-*/ # CLion 默认的 CMake 构建目录（编译产物存放处）
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+*.cmake
+*.dir/
+
+# C 语言编译产物
+*.o            # 目标文件（object file）
+*.obj          # Windows 平台目标文件
+*.out          # 可执行文件（Unix 类系统）
+*.exe          # 可执行文件（Windows）
+*.so           # 动态链接库（Unix 类系统）
+*.dll          # 动态链接库（Windows）
+*.a            # 静态链接库（Unix 类系统）
+*.lib          # 静态链接库（Windows）
+
+# 临时文件
+*~             # 编辑器临时文件（如 Vim 生成）
+.DS_Store      # macOS 系统文件
+Thumbs.db      # Windows 系统文件
